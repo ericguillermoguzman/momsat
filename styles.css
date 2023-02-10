@@ -1,14 +1,46 @@
 *{
     margin: 0;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Helvetica';
 
+}
+
+#bg {
+  background-image: url("assets/004.jpg");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  transition: background-image 2s ease-in-out;
+}
+
+.two{
+  margin-right: 1rem;
+  width: 80%;
+  text-align: center;
 }
 
 h1 {
-    color: rgb(238, 224, 103);
-    font-size: 50px;
+    color: #FAA426;
+    font-size: 65px;
+    text-align: center;
 }
+
+h2 {
+  color: #d58d21;
+  font-size: 45px;
+}
+
+.brea {
+  padding: 10%;
+  background-color: rgba(240, 248, 255, 0.5);
+  border-radius: 10px;
+  height: 70%;
+}
+
 
 .spacing{
     padding-top: 2rem;
@@ -16,17 +48,23 @@ h1 {
 
 .banner {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 200px;
+    box-shadow: 0 0 .2rem .2rem rgba(0, 0, 0, 0.30);
+    background-color: rgba(240, 248, 255, 0.70);
+
   }
   
-  .banner img:first-child {
-    width: 20%;
-    height: 100%;
-    object-fit: cover;
+.banner img:first-child {
+    margin-left:1rem;
+    height: auto;
+    width: auto;
+    max-height: 160px;
+    max-width: 266px;
   }
   
-  .banner img:last-child {
+.banner img:last-child {
     width: 80%;
     height: 100%;
     object-fit: cover;
@@ -34,16 +72,57 @@ h1 {
 
 .cstmrZone{
     margin-top: 2rem;
-    padding-left: 10%;
-    padding-right: 10%;
     display: flex;
-    justify-content: space-around;
-    height: 20rem;
+    justify-content: space-evenly;
+    height: 75%;
 }
+
+.newZone {
+    padding: 1%;
+    width: 40%;
+    background-color: rgba(240, 248, 255, 0.55);
+    box-shadow: 0 0 .2rem .2rem rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    height: 75%;    
+}
+
+.currZone{
+    padding: 1%;
+    width: 40%;
+    background-color: rgba(240, 248, 255, 0.55);
+    box-shadow: 0 0 .2rem .2rem rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    height: 75%;
+}
+
+.braek{
+    margin-top: 2%;
+    padding: 10%;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    height: 67%;
+}
+
+.top{
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 2;
+  color:  #FAA426;
+}
+
+.bot{
+  margin-top: 8%;
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+}
+
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    color: #444;
+    margin-top: 1rem;
+    color: rgb(43, 123, 175);
     cursor: pointer;
     padding: 18px;
     width: 85%;
@@ -51,6 +130,8 @@ h1 {
     border: none;
     outline: none;
     transition: 0.4s;
+    box-shadow: 0 0 .2rem .2rem rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -60,8 +141,14 @@ h1 {
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 0 18px;
-    background-color: white;
+    margin-top: 2%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.3);
     display: none;
     overflow: hidden;
+    border-radius: 10px;
+  }
+
+  li {
+    font-size: 15px;
   }
