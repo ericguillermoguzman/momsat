@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-store,max-age=0" />
+    <meta name="robots" content="noindex" />
+    <title>MOMS Medical Billing Software</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body id="bg">
+  <nav class="banner">
+    <img src="assets/MOMSLogo2.png" alt="momslogo">
+    <div class="two">
+      <h1 class="display-3">Medical Office Management Systems</h1>
+    </div>
+  </nav>
+
+  <wrapper class="all">
+    <section class="leftcontent ">
+      <div class="sales">
+        <h2 class="display-5">MOMS is suitable for:</h2>
+          <ul class="list-unstyled">
+            <li class="lead">Single Practices</li>
+            <li class="lead">Multiple Physician Practices</li>
+            <li class="lead">Multiple Facility Practices</li>
+            <li class="lead">Hospitals</li>
+            <li class="lead">Therapists</li>
+            <li class="lead">Billing Services</li>
+          </ul>
+      </div>
+      <div>
+        <h2 class="display-5">Ready to use MOMS?</h2>
+          <dl class="row">
+            <dt class="col-sm-3">Phone:</dt>
+              <dd class="col-sm-9"> +1-210-558-3733</dd>
+            <dt class="col-sm-3">Email:</dt>
+              <dd class="col-sm-9"> sales@momsat.com</dd>
+          </dl>
+      </div> 
+    </section>
+                  
+
+    <section class="rightcontent">
+      <div class="support">
+        <a href="http://datatel.go.dyndns.org:8040/">
+          <p class="supportTop">Datatel Solutions Call Center Hours:<br> Monday - Friday, 8:30am - 5:30pm</p>
+          <p class="supportBot">Click HERE to reach Remote Support.</p>
+        </a>
+      </div>
+    </section>
+          
+  </wrapper>    
+</body>
+
+<script>
+  window.onload = function() {
+
+const images = [
+  "assets/003.1.jpg",
+  "assets/005.1.jpg",
+  "assets/002.1.jpg",
+  "assets/004.1.jpg",
+  // Add more images as needed
+];
+
+let currentImageIndex = 0;
+
+function changeBackground() {
+  const container = document.getElementById("bg");
+  container.style.backgroundImage = `url(${images[currentImageIndex]})`;
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+}
+
+setInterval(changeBackground, 10000); // Change the background every 5 seconds
+
+}
+
+</script>
+
+</html>
+
