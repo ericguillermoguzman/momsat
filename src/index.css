@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin: 0; /* Remove margins */
+  padding: 0; /* Remove paddings */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Calibri', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(209, 250, 255);
+  background-image: url('../public/004.1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

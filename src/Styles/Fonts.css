@@ -1,0 +1,150 @@
+*{
+    text-decoration: none;
+}
+.container {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(209, 250, 255, 0.301);
+}
+
+.content {
+    background-color: rgba(83, 159, 224, 0.342);
+    box-shadow: 0 0 .2rem .2rem rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.logo {
+    margin-left: 25px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.headtitle {
+    margin-left: 25px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.minititle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+    .container{
+        height: 100px;
+    }
+    .logo {
+        margin-left: 5px;
+        height: 50px;
+    }
+    .headtitle {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .minititle {
+        font-size: 12px;        
+    }
+}
+
+/* Extra small devices (phones, 320px and up) */
+@media only screen and (min-width: 320px) {
+    .container{
+        height: 100px;
+    }
+    .logo {
+        margin-left: 5px;
+        height: 60px;
+    }
+    .headtitle {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .minititle {
+        font-size: 12px;        
+    }
+}
+/* Small devices (portrait tablets and large phones, 450px and up) */
+@media only screen and (min-width: 450px) {
+    .container{
+        height: 150px;
+    }
+    .logo {
+        margin-left: 25px;
+        height: 70px;
+    }
+    .headtitle {
+        margin-left: 25px;
+        font-size: 18px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .minititle {
+        font-size: 16px;        
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        height: 150px;
+    }
+    .logo {
+        margin-left: 25px;
+        height: 90px;
+    }
+    .headtitle {
+        margin-left: 25px;
+        font-size: 24px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .minititle {
+        font-size: 16px;        
+    }
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        height: 15vh;
+    }
+    .logo {
+        height: 100px;
+    }
+    .headtitle {
+        margin-left: 25px;
+        font-size: 34px;
+    }
+    .title {
+        font-size: 34px;
+    }    
+    .minititle {
+        font-size: 20px;
+    }
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        height: 15vh;
+    }
+}
